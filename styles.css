@@ -1,0 +1,62 @@
+/* Основные стили для страницы */
+
+body {
+  background-color: #696969;
+  font-family: 'Arial', sans-serif; /* Установка шрифта для всего документа */
+  margin: 0; /* Убирает внешние отступы у body */
+  padding: 0; /* Убирает внутренние отступы у body */
+  text-align: center;
+}
+
+#game-container {
+
+  max-width: 800px; /* Ограничение максимальной ширины контейнера */
+  margin: 20px auto; /* Центрирование контейнера относительно страницы */
+  padding: 20px; /* Внутренние отступы контейнера */
+  background-color: #f0f0f0; /* Цвет фона контейнера */
+  border: 1px solid #ccc; /* Рамка вокруг контейнера */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+}
+
+#img-container {
+  max-width: 800px; /* Ограничение максимальной ширины контейнера */
+  max-height: 500px;
+  margin: 20px auto; /* Центрирование контейнера относительно страницы */
+  padding: 20px; /* Внутренние отступы контейнера */
+  background-color: #f0f0f0; /* Цвет фона контейнера */
+  border: 1px solid #ccc; /* Рамка вокруг контейнера */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+}
+
+#story {
+  font-size: 25px; /* Размер шрифта для текстового поля сюжета */
+  margin-top: 10px;
+  margin-bottom: 15px; /* Внешний отступ снизу текстового поля */
+}
+
+#question {
+  font-size: 25px; /* Размер шрифта для текстового поля сюжета */
+  margin-bottom: 15px; /* Внешний отступ снизу текстового поля */
+}
+
+button {
+  background-color: #696969;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center; /* Центрирование изображения и текста по вертикали */
+}
+
+img {
+  max-width: 30%;
+  max-height: 30%;
+  margin-right: 8px;
+  display: inline;
+  border: 1px solid #ccc; /* Рамка вокруг изображений */
+
+  justify-content: space-around; /* Равномерное распределение пространства между изображениями */
+}
